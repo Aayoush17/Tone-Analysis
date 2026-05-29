@@ -1,0 +1,27 @@
+variable	value
+whattoextr	tab
+pdfs	C:/Users/adhik/OneDrive/Desktop/BRSR Data/TOP 83 Companies/Reliance Industries Limited
+outputfolder	C:/Users/adhik/OneDrive/Desktop/Python Annual Report
+table.heading.words	
+ignore.case.th	FALSE
+filter.words	
+regex.fw	FALSE
+ignore.case.fw	FALSE
+filter.word.times	0%
+search.words	total assets;revenue;net income; leverage ratio
+save.tab.by.category	FALSE
+regex.sw	FALSE
+ignore.case.sw	FALSE
+eval.abbrevs	TRUE
+write.table.locations	FALSE
+cpy_mv	nocpymv
+delete	TRUE
+exp.nondetc.tabs	TRUE
+out.table.format	.csv (WINDOWS-1252)
+dev_x	20
+dev_y	9999
+context	0
+write.tab.doc.file	TRUE
+write.txt.doc.file	TRUE
+l15.filter.words.rbValue	no
+l19.rbValue	searchwords

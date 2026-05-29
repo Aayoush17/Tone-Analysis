@@ -1,0 +1,4 @@
+PyMuPDF>=1.22.0
+pytesseract>=0.3.10
+Pillow>=9.0.0
+tqdm>=4.0.0
