@@ -1,0 +1,4 @@
+     `ln(Total Asset)`           `Board Size` `Cross listing Status` 
+              1.477109               1.119551               1.146288 
+     `Asset to Equity`              Treatment 
+              1.114589               1.146409 

@@ -2,8 +2,8 @@ import os
 import shutil
 
 # Define paths
-source_folder = r"D:\BRSR 333"
-destination_folder = r"D:\Merged PDF BRSR 333"
+source_folder = r"D:\Python Annual Report\BRSR-BRR_Manual"
+destination_folder = r"D:\Python Annual Report\BRSR-BRR_Manual Combined PDF"
 
 # Create destination folder if it doesn't exist
 os.makedirs(destination_folder, exist_ok=True)
@@ -22,8 +22,8 @@ for company_folder in os.listdir(source_folder):
             if filename.lower().endswith(".pdf"):  # Case-insensitive check
                 source_file = os.path.join(company_path, filename)
                 
-                # Create new filename with company prefix
-                new_filename = f"{company_folder}_{filename}"
+                # NEW: Use only the original filename without adding company prefix again
+                new_filename = filename
                 destination_file = os.path.join(destination_folder, new_filename)
                 
                 # Handle duplicate filenames
@@ -40,4 +40,3 @@ for company_folder in os.listdir(source_folder):
                 print(f"Copied: {new_filename}")
 
 print(f"\n✅ Copied {len(copied_files)} PDF files to: {destination_folder}")
-

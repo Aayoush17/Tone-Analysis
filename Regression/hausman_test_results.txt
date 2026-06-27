@@ -1,0 +1,7 @@
+
+	Hausman Test
+
+data:  GW ~ BoardSize_win + Cross_Listing + LOG_TA + DE
+chisq = 26.432, df = 3, p-value = 7.746e-06
+alternative hypothesis: one model is inconsistent
+
